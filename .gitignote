@@ -1,3 +1,4 @@
-node_modules/
+node_modules
 package-lock.json
 src/dark_api.js
+.DS_Store
