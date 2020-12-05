@@ -1,4 +1,4 @@
 node_modules
 package-lock.json
-src/dark_api.js
+dark_api.js
 w.DS_Store
