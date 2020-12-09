@@ -41,7 +41,7 @@
 
 	import { toLatLng } from "leaflet/src/geo/LatLng.js";
 
-	import "dotenv";
+	import dotenv from 'dotenv';
 	dotenv.config();
 
     let apikeystr = new process.apikey;
