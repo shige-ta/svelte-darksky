@@ -32,7 +32,6 @@
 
 
 <script>
-    import {apikey} from './dark_api.js';
 	import {
 		LeafletMap,
 		LeafletMarker,
@@ -41,7 +40,11 @@
     } from "svelte-leaflet";
 
 	import { toLatLng } from "leaflet/src/geo/LatLng.js";
-    let apikeystr = new apikey();
+
+	import "dotenv";
+	dotenv.config();
+
+    let apikeystr = new process.apikey;
 
 	let markerVisible = true;
 	let markerName = "Null Island";
